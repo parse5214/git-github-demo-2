@@ -1,9 +1,11 @@
 function handleClick() {
     alert('Button clicked!');
 
-    var title = document.querySelector('h1');
+    var paragraph = document.querySelector('p');
 
-    title.textContent = 'This is a new title';
+    if (paragraph) {
+        paragraph.textContent = 'Button clicked! Paragraph text changed.';
+    }
 }
 
 function handleSpecialClick() {
