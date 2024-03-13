@@ -6,3 +6,8 @@ h1 {
 h2 {
     background-color: aliceblue;
 }
+
+button {
+    background-color: blueviolet;
+    border-radius: 20%;
+}
